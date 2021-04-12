@@ -31,9 +31,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#history">History</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skill">Skill</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Project</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skill">Skill</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#history">History</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -50,77 +50,63 @@
       </div>
     </div>
   </header>
-  <!-- history-->
-  <section class="page-section bg-light" id="history">
+  <!-- Portfolio Grid-->
+  <section class="page-section bg-light" id="portfolio">
     <div class="container">
       <div class="text-center">
-        <h2 class="section-heading text-uppercase">History</h2>
+        <h2 class="section-heading text-uppercase">Project</h2>
       </div>
-      <ul class="timeline">
-        <li>
-          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/anylogic.JPG" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2020 Dec - 2021 Feb</h4>
-              <h4 class="subheading">AnyLogic</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                EMKO - ERP 시스템 개발<br>
-                기술 스택 : AngularJS 1.8v, SpringBoot 1.2.4v, PostgreSql 9.4v, Mybatis 3.2.8v, Java 1.8v<br>
-                담당 업무 : 게시판 작성 및 페이지 SPA 처리<br>담당업무 SQL 쿼리 작성.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/bitcamp.jpg" alt="" /></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2019 Dec - 2020 Jul</h4>
-              <h4 class="subheading">BitCamp Shinchon</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">웹개발 양성과정 수료<br>
-                Java / HTML / CSS / JavaScript / Spring / Oracle 교육 수료<br>
-                Final Project : SoSo Wedding
-              </p>
+      <div class="row" style="justify-content: center;">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/sosowedding.png" alt="" />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">SoSo Wedding</div>
+              <div class="portfolio-caption-subheading text-muted">
+                <div>
+                  <h5>
+                    비대면 최저가 웨딩플레너 사이트
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                    #Java #Oracle #Kakao API #JSP #CSS #JavaScript #Mybatis #TomCat #Spring
+                  </h6>
+                </div>
+              </div>
             </div>
           </div>
-        </li>
-        <li>
-          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/datagatekorea.gif" alt="" />
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2019 Jan - 2019 Nov</h4>
-              <h4 class="subheading">Data Gate Korea</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">IT 영업<br>
-                HPE x86 서버, ELastic Search, RedHat /<br> MS Server 등 License 영업 / 서버 설치<br>
-                한국 예탁 결제원 전산센터 재구축 제안서 작성.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nicecms.png" alt="" /></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>2015 Jun - 2017 Mar</h4>
-              <h4 class="subheading">Nice CMS</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">은행 / 여신 / 기관 현금 수송 및 ATM관리<br>
-                세부업무 : 금품 운송대행, 현금위탁, 수표관리, ATM 현금 관리 및 장애 복구
-              </p>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/todolist.JPG" alt="" />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Todo List</div>
+              <div class="portfolio-caption-subheading text-muted">
+                <div>
+                  <h5>
+                    Vuetify 프레임워크를 이용한 Todo List
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                    #Vue #Vuex #Vue-Router #Vuetify #LocalBase #Node.js
+                  </h6>
+                </div>
+              </div>
             </div>
           </div>
-        </li>
-      </ul>
-    </div>
+        </div>
   </section>
   <!-- Services-->
   <section class="page-section" id="skill" style="background:#fff9c4;">
@@ -215,63 +201,77 @@
         </div>
       </div>
   </section>
-  <!-- Portfolio Grid-->
-  <section class="page-section bg-light" id="portfolio">
+  <!-- history-->
+  <section class="page-section bg-light" id="history">
     <div class="container">
       <div class="text-center">
-        <h2 class="section-heading text-uppercase">Project</h2>
+        <h2 class="section-heading text-uppercase">History</h2>
       </div>
-      <div class="row" style="justify-content: center;">
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-              </div>
-              <img class="img-fluid" src="assets/img/sosowedding.png" alt="" />
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">SoSo Wedding</div>
-              <div class="portfolio-caption-subheading text-muted">
-                <div>
-                  <h5>
-                    비대면 최저가 웨딩플레너 사이트
-                  </h5>
-                </div>
-                <div>
-                  <h6>
-                    #Java #Oracle #Kakao API #JSP #CSS #JavaScript #Mybatis #TomCat #Spring
-                  </h6>
-                </div>
-              </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/anylogic.JPG" alt="" />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2020 Dec - 2021 Feb</h4>
+              <h4 class="subheading">AnyLogic</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                EMKO - ERP 시스템 개발<br>
+                기술 스택 : AngularJS 1.8v, SpringBoot 1.2.4v, PostgreSql 9.4v, Mybatis 3.2.8v, Java 1.8v<br>
+                담당 업무 : 게시판 작성 및 페이지 SPA 처리<br>담당업무 SQL 쿼리 작성.
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-              </div>
-              <img class="img-fluid" src="assets/img/todolist.JPG" alt="" />
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">Todo List</div>
-              <div class="portfolio-caption-subheading text-muted">
-                <div>
-                  <h5>
-                    Vuetify 프레임워크를 이용한 Todo List
-                  </h5>
-                </div>
-                <div>
-                  <h6>
-                    #Vue #Vuex #Vue-Router #Vuetify #LocalBase #Node.js
-                  </h6>
-                </div>
-              </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/bitcamp.jpg" alt="" /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2019 Dec - 2020 Jul</h4>
+              <h4 class="subheading">BitCamp Shinchon</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">웹개발 양성과정 수료<br>
+                Java / HTML / CSS / JavaScript / Spring / Oracle 교육 수료<br>
+                Final Project : SoSo Wedding
+              </p>
             </div>
           </div>
-        </div>
+        </li>
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/datagatekorea.gif" alt="" />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2019 Jan - 2019 Nov</h4>
+              <h4 class="subheading">Data Gate Korea</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">IT 영업<br>
+                HPE x86 서버, ELastic Search, RedHat /<br> MS Server 등 License 영업 / 서버 설치<br>
+                한국 예탁 결제원 전산센터 재구축 제안서 작성.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nicecms.png" alt="" /></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2015 Jun - 2017 Mar</h4>
+              <h4 class="subheading">Nice CMS</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">은행 / 여신 / 기관 현금 수송 및 ATM관리<br>
+                세부업무 : 금품 운송대행, 현금위탁, 수표관리, ATM 현금 관리 및 장애 복구
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
   <!-- Contact-->
   <section class="page-section" style="background-color: #cfd8dc;" id="contact">
