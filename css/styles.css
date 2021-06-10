@@ -10884,8 +10884,9 @@ p.typing-txt {
 }
 
 .i-container figure {
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
+  justify-content: center;
 }
 
 .skill-img-container {
@@ -10896,7 +10897,22 @@ p.typing-txt {
   border-radius: 30px 30px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 2rem;
+  margin: 0.5rem;
+  box-shadow: 0 3px 6px rgb(0, 0, 0 / 20%), 0 3px 6px rgb(0, 0, 0 / 20%);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-img-container2 {
+  text-align: center;
+  display: inline-block;
+  width: 10rem;
+  height: 5rem;
+  /* border-radius: 30px 30px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0.5rem;
   box-shadow: 0 3px 6px rgb(0, 0, 0 / 20%), 0 3px 6px rgb(0, 0, 0 / 20%);
   justify-content: center;
   align-items: center;
@@ -10933,7 +10949,7 @@ figure .overlay {
   transition: 0.6s ease;
 }
 figure .overlay .description {
-  font-size: 20px;
+  font-size: large;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10943,6 +10959,8 @@ figure .overlay .description {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
 figure:hover .overlay {
   display: block;
   height: 100%;
